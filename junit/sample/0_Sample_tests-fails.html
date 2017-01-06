@@ -1,0 +1,348 @@
+<html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Unit Test Results: sample.Sample_tests</title>
+<link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['sample.Sample_tests'] = new Array();
+    
+        cur['ant.core.lib'] = '/usr/share/java/ant-1.9.3.jar';
+    
+        cur['ant.file'] = '/home/edureka/workspace/sample/build.xml';
+    
+        cur['ant.file.sample'] = '/home/edureka/workspace/sample/build.xml';
+    
+        cur['ant.file.type.sample'] = 'file';
+    
+        cur['ant.home'] = '/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730';
+    
+        cur['ant.java.version'] = '1.8';
+    
+        cur['ant.library.dir'] = '/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib';
+    
+        cur['ant.project.default-target'] = 'build';
+    
+        cur['ant.project.invoked-targets'] = 'build,Sample_tests,junitreport';
+    
+        cur['ant.project.name'] = 'sample';
+    
+        cur['ant.version'] = 'Apache Ant(TM) version 1.9.3 compiled on April 8 2014';
+    
+        cur['awt.toolkit'] = 'sun.awt.X11.XToolkit';
+    
+        cur['basedir'] = '/home/edureka/workspace/sample';
+    
+        cur['debuglevel'] = 'source,lines,vars';
+    
+        cur['ECLIPSE_HOME'] = '../../../../usr/lib/eclipse';
+    
+        cur['eclipse.pdebuild.home'] = '/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/.//';
+    
+        cur['eclipse.pdebuild.scripts'] = '/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/scripts//';
+    
+        cur['eclipse.pdebuild.templates'] = '/usr/lib/eclipse/dropins/sdk/plugins/org.eclipse.pde.build_3.8.1.dist/templates//';
+    
+        cur['env._'] = '/usr/bin/eclipse';
+    
+        cur['env.ANT_HOME'] = '/usr/lib/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730';
+    
+        cur['env.CLUTTER_IM_MODULE'] = 'xim';
+    
+        cur['env.COLORTERM'] = 'gnome-terminal';
+    
+        cur['env.COMPIZ_BIN_PATH'] = '/usr/bin/';
+    
+        cur['env.COMPIZ_CONFIG_PROFILE'] = 'ubuntu';
+    
+        cur['env.DBUS_SESSION_BUS_ADDRESS'] = 'unix:abstract=/tmp/dbus-ykToNMgAOO';
+    
+        cur['env.DEFAULTS_PATH'] = '/usr/share/gconf/ubuntu.default.path';
+    
+        cur['env.DESKTOP_SESSION'] = 'ubuntu';
+    
+        cur['env.DISPLAY'] = ':0';
+    
+        cur['env.GDM_LANG'] = 'en_US';
+    
+        cur['env.GDMSESSION'] = 'ubuntu';
+    
+        cur['env.GNOME_DESKTOP_SESSION_ID'] = 'this-is-deprecated';
+    
+        cur['env.GNOME_KEYRING_CONTROL'] = '/run/user/1000/keyring-JsNbe7';
+    
+        cur['env.GNOME_KEYRING_PID'] = '2227';
+    
+        cur['env.GPG_AGENT_INFO'] = '/run/user/1000/keyring-JsNbe7/gpg:0:1';
+    
+        cur['env.GTK_IM_MODULE'] = 'ibus';
+    
+        cur['env.GTK_MODULES'] = 'overlay-scrollbar:unity-gtk-module';
+    
+        cur['env.HOME'] = '/home/edureka';
+    
+        cur['env.IM_CONFIG_PHASE'] = '1';
+    
+        cur['env.INSTANCE'] = '';
+    
+        cur['env.JOB'] = 'dbus';
+    
+        cur['env.LANG'] = 'en_US.UTF-8';
+    
+        cur['env.LANGUAGE'] = 'en_US';
+    
+        cur['env.LESSCLOSE'] = '/usr/bin/lesspipe %s %s';
+    
+        cur['env.LESSOPEN'] = '| /usr/bin/lesspipe %s';
+    
+        cur['env.LOGNAME'] = 'edureka';
+    
+        cur['env.LS_COLORS'] = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';
+    
+        cur['env.MANDATORY_PATH'] = '/usr/share/gconf/ubuntu.mandatory.path';
+    
+        cur['env.OLDPWD'] = '/usr/share/ant/lib';
+    
+        cur['env.PATH'] = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games';
+    
+        cur['env.PWD'] = '/home/edureka';
+    
+        cur['env.QT_QPA_PLATFORMTHEME'] = 'appmenu-qt5';
+    
+        cur['env.QT4_IM_MODULE'] = 'xim';
+    
+        cur['env.SELINUX_INIT'] = 'YES';
+    
+        cur['env.SESSION'] = 'ubuntu';
+    
+        cur['env.SESSION_MANAGER'] = 'local/ubuntu:@/tmp/.ICE-unix/2603,unix/ubuntu:/tmp/.ICE-unix/2603';
+    
+        cur['env.SESSIONTYPE'] = 'gnome-session';
+    
+        cur['env.SHELL'] = '/bin/bash';
+    
+        cur['env.SHLVL'] = '1';
+    
+        cur['env.SSH_AGENT_LAUNCHER'] = 'upstart';
+    
+        cur['env.SSH_AGENT_PID'] = '2465';
+    
+        cur['env.SSH_AUTH_SOCK'] = '/run/user/1000/keyring-JsNbe7/ssh';
+    
+        cur['env.TERM'] = 'xterm';
+    
+        cur['env.TEXTDOMAIN'] = 'im-config';
+    
+        cur['env.TEXTDOMAINDIR'] = '/usr/share/locale/';
+    
+        cur['env.UBUNTU_MENUPROXY'] = '1';
+    
+        cur['env.UPSTART_SESSION'] = 'unix:abstract=/com/ubuntu/upstart-session/1000/2247';
+    
+        cur['env.USER'] = 'edureka';
+    
+        cur['env.VTE_VERSION'] = '3409';
+    
+        cur['env.WINDOWID'] = '41943051';
+    
+        cur['env.XAUTHORITY'] = '/home/edureka/.Xauthority';
+    
+        cur['env.XDG_CONFIG_DIRS'] = '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg';
+    
+        cur['env.XDG_CURRENT_DESKTOP'] = 'Unity';
+    
+        cur['env.XDG_DATA_DIRS'] = '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/';
+    
+        cur['env.XDG_GREETER_DATA_DIR'] = '/var/lib/lightdm-data/edureka';
+    
+        cur['env.XDG_MENU_PREFIX'] = 'gnome-';
+    
+        cur['env.XDG_RUNTIME_DIR'] = '/run/user/1000';
+    
+        cur['env.XDG_SEAT'] = 'seat0';
+    
+        cur['env.XDG_SEAT_PATH'] = '/org/freedesktop/DisplayManager/Seat0';
+    
+        cur['env.XDG_SESSION_ID'] = 'c2';
+    
+        cur['env.XDG_SESSION_PATH'] = '/org/freedesktop/DisplayManager/Session0';
+    
+        cur['env.XDG_VTNR'] = '7';
+    
+        cur['env.XMODIFIERS'] = '@im=ibus';
+    
+        cur['file.encoding'] = 'UTF-8';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['java.awt.graphicsenv'] = 'sun.awt.X11GraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'sun.print.PSPrinterJob';
+    
+        cur['java.class.path'] = '/home/edureka/workspace/sample/target/classes:/home/edureka/Downloads/selenium-server-standalone-3.0.0-beta3.jar:/home/edureka/Downloads/org.testng.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/cglib-nodep-3.2.4.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/commons-codec-1.10.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/commons-exec-1.3.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/commons-logging-1.2.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/gson-2.3.1.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/guava-19.0.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/hamcrest-core-1.3.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/hamcrest-library-1.3.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/httpclient-4.5.2.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/httpcore-4.4.4.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/httpmime-4.5.2.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/jna-4.1.0.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/jna-platform-4.1.0.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/junit-4.12.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/netty-3.5.7.Final.jar:/home/edureka/Downloads/selenium-java-3.0.0-beta3/lib/phantomjsdriver-1.3.0.jar:/usr/share/java/ant-launcher-1.9.3.jar:/usr/share/java/ant-1.9.3.jar:/usr/share/java/ant-junit-1.9.3.jar';
+    
+        cur['java.class.version'] = '52.0';
+    
+        cur['java.endorsed.dirs'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext';
+    
+        cur['java.home'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre';
+    
+        cur['java.io.tmpdir'] = '/tmp';
+    
+        cur['java.library.path'] = '/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib';
+    
+        cur['java.runtime.name'] = 'OpenJDK Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.8.0_91-8u91-b14-0ubuntu4~14.04-b14';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.specification.version'] = '1.8';
+    
+        cur['java.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vendor.url'] = 'http://java.oracle.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.sun.com/bugreport/';
+    
+        cur['java.version'] = '1.8.0_91';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'OpenJDK 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.specification.version'] = '1.8';
+    
+        cur['java.vm.vendor'] = 'Oracle Corporation';
+    
+        cur['java.vm.version'] = '25.91-b14';
+    
+        cur['junit.output.dir'] = 'junit';
+    
+        cur['line.separator'] = '\n';
+    
+        cur['os.arch'] = 'amd64';
+    
+        cur['os.name'] = 'Linux';
+    
+        cur['os.version'] = '3.13.0-24-generic';
+    
+        cur['path.separator'] = ':';
+    
+        cur['source'] = '1.7';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes';
+    
+        cur['sun.boot.library.path'] = '/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.desktop'] = 'gnome';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sample.Sample_tests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/edureka/workspace/sample/junit/TEST-sample.Sample_tests.xml crashfile=/home/edureka/workspace/sample/junitvmwatcher1162932197010403618.properties propsfile=/home/edureka/workspace/sample/junit5000153745436360235.properties';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'UTF-8';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['target'] = '1.7';
+    
+        cur['user.country'] = 'US';
+    
+        cur['user.dir'] = '/home/edureka/workspace/sample';
+    
+        cur['user.home'] = '/home/edureka';
+    
+        cur['user.language'] = 'en';
+    
+        cur['user.name'] = 'edureka';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document;
+          doc.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style type=\"text/css\">");
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+      
+      </script>
+</head>
+<body>
+<h1>Unit Test Results.</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org/">JUnit</a> and <a href="http://ant.apache.org/">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h3>Class sample.Sample_tests</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a title="Display all tests" href="0_Sample_tests.html">Sample_tests</a></td><td><a title="Display all tests" href="0_Sample_tests.html">1</a></td><td>0</td><td><a title="Display only failures" href="0_Sample_tests-fails.html">1</a></td><td>0</td><td>0.289</td><td>2016-09-19T12:13:48</td><td>ubuntu</td>
+</tr>
+</table>
+<h2>Failures</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="Failure">
+<td><a name="warning"></a>warning</td><td>Failure</td><td>No tests found in sample.Sample_tests<br>
+<br>
+<code>junit.framework.AssertionFailedError: No tests found in sample.Sample_tests<br>
+</code></td><td>0.018</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('sample.Sample_tests');">
+                    Properties &raquo;
+                </a>
+</div>
+</body>
+</html>
